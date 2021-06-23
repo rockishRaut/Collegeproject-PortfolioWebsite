@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   	  <meta charset="utf-8">
+   	  <meta name="viewport" content="width=device-width"> 
+	  <title>Rakish portfolio name | welcome </title>
+	  <link rel="stylesheet" type="text/css" href="./css/style.css">
+	  <script type="text/javascript" src="./javascript/form.js"></script>
+	  <style type="text/css">
+	  	body{
+	  		background-image: url(./img/contact.jpg);
+	  		font: 17px/2 ALGERIAN, helvetica, sans-serif;
+	  		color: black;
+	        padding:0;   
+	        margin: 2;
+	        size: 15;
+	  	} .form{
+	  		text-align: center;
+	  	}
+	  	header{
+	  		background-image: url(./img/moon.jpg);
+	  		color:white;
+	  	}
+	  	header a{
+	  		color: white;
+	  	}
+	  </style>
+</head>	
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1> <span class="highlight">RAKISH RAUT PORTFOLIO </span></h1>
+				
+			</div>
+			<nav>
+				<ul>
+					<li class="current"> <a href="home.html">Home</a></li>
+					<li><a href="cv.html">cv</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="Research.html">Research</a></li>
+					<li><a href="contact.html" class="active">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		</header><br><br>
+		<div class="form">
+  <div style="text-align:center">
+    <h2>Contact me</h2>
+ 
+     </div>
+    </div>
+    <div class="column">
+      <form name="myform" onsubmit="validateform()">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+        <label for="text"> E-mail</label>
+        <input type="text" id="E-mail" name="email" placeholder="your E-mail address"><br>
+        <label for="country">Country</label>
+        <select id="country" name="country"><br>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select><br>
+        <label for="subject">If you have any queries than you can ask a question.</label><br>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:30px"></textarea><br>
+        <input type="submit" value="Submit">
+         </div>
+      </form>
+	
+</body>
+</html>
